@@ -1,0 +1,45 @@
+= render partial: 'top/header'
+.main__picture_kazuki
+.contents
+  .content
+    KAZUKI
+  .detail
+    .detail__1
+      %h3.text__1
+        dance battle では、数々のバトルイベントにて優勝し結果を残してきた。
+        %br/
+        %br/
+        showではEAST SIDE HIPHOP PARTYをはじめ
+        dance@live など
+        %br/
+        %br/
+        多数のイベントにゲスト出演経験するという輝かしい経歴を持つ。
+      %h3.picture__1
+        =image_tag 'kazuki1.JPG', class: 'iamge', width: 500, height: 350
+    .detail__2
+      %h3.picture__2
+        =image_tag 'kazuki2.JPG', class: 'iamge', width: 300, height: 350
+      %h3.text__2
+        現在は、若手hiphop team  "B.orlov fragment"  と
+        %br/
+        %br/
+        female freestyle team  "UNOWN."  としても活動中。
+    .detail__3
+      %h3.text__3
+        彼女にはファンも多い。女性らしさの中に力強さや繊細さが調和しており、見ている人を魅了する。
+        %br/
+        %br/
+        グルービー且つ音楽性を感じるダンスを武器とする実力派femalehiphoper。
+      %h3.picture__3
+        =image_tag 'kazuki3.JPG', class: 'iamge', width: 350, height: 350
+  .btn__container
+    =link_to "https://instagram.com/kzkchi_615_?igshid=1pu01almwdfva", class: "btn" do
+      =icon('fab', 'instagram')
+      -# <i class="fab fa-instagram"></i>
+      %span 
+        INSTAGRAM
+
+= render partial: 'top/footer'
+
+-# battleにおいて数々のバトルで結果を残し、showではEAST SIDE HIPHOP PARTYをはじめ、多数のイベントにゲスト出演経験を持つ。現在はfemale freestyle team、UNOWN.としても活動中。
+-# グルービー且つ音楽性を感じるダンスを武器とする実力派femalehiphoper。

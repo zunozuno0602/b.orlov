@@ -1,0 +1,11 @@
+// Place all the styles related to the suzuki controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.main__picture_suzuki{
+  display: flex;
+  background-image: url(rqy-suzuki.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}

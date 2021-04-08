@@ -1,0 +1,39 @@
+= render partial: 'top/header'
+.main__picture_daaya
+.contents
+  .content
+    DAAYA
+  .detail
+    .detail__1
+      %h3.text__1
+        高校生の頃からダンスを始め
+        %br/
+        %br/
+        様々なダンスを学んだ後、UnderGroued Hiphopの魅力に触れて現在に至る。
+        %br/
+        %br/
+        密かに芸能関係の仕事をしていた経験もあり
+        %br/
+        %br/
+        ジャニーズ事務所にいたとかいないとか、、
+      %h3.picture__1
+        =image_tag 'daaya.JPG', class: 'iamge', width: 500, height: 350
+    .detail__2
+      %h3.picture__2
+        =image_tag 'daaya1.jpg', class: 'iamge', width: 300, height: 350
+      %h3.text__2
+        手足を巧みに使ったテクニックを武器としたHiphop Styleを踊りこなす。
+    .detail__3
+      %h3.text__3
+        可愛らしいシルエットと見た目でオルロフのマスコットキャラクターとして君臨している。
+      %h3.picture__3
+        =image_tag 'daaya2.jpg', class: 'iamge', width: 350, height: 350
+  .btn__container
+    =link_to "https://instagram.com/_daaya_11?igshid=1b2doxyx4i2h3", class: "btn" do
+      =icon('fab', 'instagram')
+      -# <i class="fab fa-instagram"></i>
+      %span 
+        INSTAGRAM
+
+= render partial: 'top/footer'
+

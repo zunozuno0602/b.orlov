@@ -1,0 +1,47 @@
+= render partial: 'top/header'
+.main__picture_tatsuki
+.contents
+  .content
+    TATSUKI
+  .detail
+    .detail__1
+      %h3.text__1
+        5歳からダンスを始め、ダンスに没頭する日々を送る。
+        %br/
+        %br/
+        中学生の頃は”BeatSoldier”に所属し、バトルを中心に活躍。
+        %br/
+        %br/
+        その後U-KI the retro,Takuyaと共に”BixBite”を結成し、各地でのゲストショー
+        %br/
+        %br/
+        や国内外のWSを行いながら活動している。
+      %h3.picture__1
+        =image_tag 'tatsuki.JPG', class: 'iamge', width: 500, height: 350
+    .detail__2
+      %h3.picture__2
+        =image_tag 'tatsuki3.jpg', class: 'iamge', width: 300, height: 350
+      %h3.text__2
+        最近では世界最大級の2on2バトルイベント『JusteDebout』の日本予選を優勝し
+        本戦の世界大会への出場。
+        %br/
+        %br/
+        %br/
+        国内最大級の1on1バトルイベント『Dance@Live』の前日予選を優勝し、本線に出場など輝かしい成績を残す。
+    .detail__3
+      %h3.text__3
+        メディアやメジャーの活動も多く、ラッパーSALUのバックダンサーやMV出演や
+        %br/
+        %br/
+        %br/
+        中京テレビ『スーパーチャンプル』出演、NHK『みんなのうた』出演などアングラ以外の幅広い活動もしている。
+      %h3.picture__3
+        =image_tag 'tatsuki2.jpg', class: 'iamge', width: 350, height: 350
+  .btn__container
+    =link_to "https://instagram.com/ttk_bixbite98?igshid=19x2cw005htiw", class: "btn" do
+      =icon('fab', 'instagram')
+      -# <i class="fab fa-instagram"></i>
+      %span 
+        INSTAGRAM
+
+= render partial: 'top/footer'

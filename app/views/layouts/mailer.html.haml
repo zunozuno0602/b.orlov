@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    :css
+      /* Email styles need to be inline */
+    = link_to "https://fonts.gstatic.com", rel: "preconnect"
+    = link_to "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap", rel: "stylesheet"
+  %body
+    = yield

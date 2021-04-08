@@ -1,0 +1,2 @@
+class KazukiController < ApplicationController
+end

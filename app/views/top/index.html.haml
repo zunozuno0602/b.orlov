@@ -1,0 +1,27 @@
+= render partial: 'header'
+= render partial: 'header2'
+
+.main
+  .main__info
+    %h3.second__title
+      INFOMATION/NEWS
+    %h3.section__title
+      出演情報
+    %h4.contents
+      4/17  dance@live にゲストととして出演。
+    %h4.more
+      =link_to '#' do
+        さらに表示
+
+
+.main__movies
+  .movie__1
+    %iframe.1{width: "650", height: "350", src: "https://www.youtube.com/embed/kV9ifzYq2is", frameborder: "0", allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allow: "fullscreen"}
+    %h1.title__1
+      “This is B.orlov Fragment” – directed by yuukizm.
+  .movie__2
+    %h1.title__2
+      IN CONTROL - film by rikuya shida.
+    %iframe.2{width: "650", height: "350", src: "https://www.youtube.com/embed/Vq6UaBI8m-A", frameborder: "0", allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allow: "fullscreen"}
+    
+= render partial: 'footer'

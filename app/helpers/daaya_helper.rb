@@ -1,0 +1,2 @@
+module DaayaHelper
+end

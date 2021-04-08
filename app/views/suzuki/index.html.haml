@@ -1,0 +1,38 @@
+= render partial: 'top/header'
+.main__picture_suzuki
+.contents
+  .content
+    SUZUKI
+  .detail
+    .detail__1
+      %h3.text__1
+        中学2年の時地元茨城県にて習い事としてダンスを始める。
+        %br/
+        %br/
+        高校時代に出会った先生がダンスで地元を盛り上げていることに感銘を受け、
+        %br/
+        %br/
+        大学進学後、今までより真剣にダンスに打ち込むことを決意。
+      %h3.picture__1
+        =image_tag 'suzuki1.jpg', class: 'iamge', width: 500, height: 350
+    .detail__2
+      %h3.picture__2
+        =image_tag 'suzuki.JPG', class: 'iamge', width: 300, height: 350
+      %h3.text__2
+        昨年度、慶應大"ロケット団"のリーダーとして『Dance@Live』RIZE sideに参戦。
+        %br/
+        %br/
+        2度の予選優勝を果たし、関東1位通過でfinalの出場権を獲得。
+    .detail__3
+      %h3.text__3
+        虫がすごい好き。
+      %h3.picture__3
+        =image_tag 'suzuki2.jpg', class: 'iamge', width: 350, height: 350
+  .btn__container
+    =link_to "https://instagram.com/etmgwtdgwdd_686797?igshid=1m81xk7pe1v1u", class: "btn" do
+      =icon('fab', 'instagram')
+      -# <i class="fab fa-instagram"></i>
+      %span 
+        INSTAGRAM
+
+= render partial: 'top/footer'
