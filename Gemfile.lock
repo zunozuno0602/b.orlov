@@ -98,6 +98,7 @@ GEM
     erubi (1.10.0)
     erubis (2.7.0)
     excon (0.79.0)
+    execjs (2.7.0)
     ffi (1.14.2)
     fog-aws (3.8.0)
       fog-core (~> 2.1)
@@ -261,6 +262,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    uglifier (4.2.0)
+      execjs (>= 0.3.0, < 3)
     unicorn (5.8.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
@@ -305,7 +308,6 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.2)
-  mini_magick
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
@@ -315,6 +317,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  uglifier
   unicorn
   web-console (>= 3.3.0)
   webdrivers
