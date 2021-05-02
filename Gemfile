@@ -6,8 +6,8 @@ ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3', '~> 1.4.2
-gem 'pg'
+gem 'sqlite3', '~> 1.4.2'
+
 # gem 'sqlite3', groups: %w(test development), require: false
 
 # gem 'pg', groups: %w(production), require: false
@@ -61,7 +61,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'unicorn'
-  # gem 'pg', '0.20.0'
+  gem 'pg', '0.20.0'
   
 
 
