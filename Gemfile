@@ -8,10 +8,6 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4.2'
 
-# gem 'sqlite3', groups: %w(test development), require: false
-
-# gem 'pg', groups: %w(production), require: false
-
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -62,7 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'unicorn'
-  gem 'pg'
+  gem 'pg', '~> 0.20.0'
   
 
 
