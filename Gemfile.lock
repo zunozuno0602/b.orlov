@@ -314,7 +314,6 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   uglifier
@@ -322,6 +321,8 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
+  sqlite3 (~> 1.4.2)
+  pg (= 0.20.0)
 
 RUBY VERSION
    ruby 2.6.5p114
