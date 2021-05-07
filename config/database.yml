@@ -26,3 +26,4 @@ production:
   <<: *default
   adapter: postgresql
   database: db/production.postgresql
+  url: <%= ENV['postgresql-asymmetrical-67473'] %>  
