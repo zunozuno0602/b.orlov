@@ -25,5 +25,7 @@ test:
 production:
   <<: *default
   adapter: postgresql
+  encoding: unicode
+  pool: 5
   database: db/production.postgresql
   url: <%= ENV['postgresql-asymmetrical-67473'] %>  
