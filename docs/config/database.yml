@@ -24,8 +24,8 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
+  adapter: sqlite3
   encoding: unicode
   pool: 5
-  database: db/production.postgresql
-  url: <%= ENV['postgresql-asymmetrical-67473'] %>  
+  database: db/production.sqlite3
+  url: <%= ENV['sqlite3-asymmetrical-67473'] %>  
