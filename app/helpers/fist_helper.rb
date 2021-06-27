@@ -1,0 +1,2 @@
+module FistHelper
+end
