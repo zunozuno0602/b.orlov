@@ -5,14 +5,17 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password:
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  adapter: sqlite3
-  database: db/development.sqlite3
+  database: app_development
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -20,12 +23,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: app_test
 
 production:
   <<: *default
-  adapter: sqlite3
-  encoding: unicode
-  pool: 5
-  database: db/production.sqlite3
-  url: <%= ENV['sqlite3-asymmetrical-67473'] %>  
+  database: app_production
+  url: <%= ENV['postgresql-asymmetrical-67473'] %>  
+
